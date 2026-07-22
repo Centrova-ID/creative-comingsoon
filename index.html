@@ -148,10 +148,10 @@
 <!-- Top label -->
 <div class="w-full fixed top-0">
   <div class="w-full flex justify-between py-3 max-w-6xl mx-auto px-6 md:px-12">
-    <div class="z-30 text-xl text-neutral-800 font-extrabold">
+    <div class="z-30 text-lg md:text-xl text-neutral-800 font-extrabold">
       Something new is coming
     </div>
-    <div class="z-30 text-xl text-neutral-800 font-extrabold">
+    <div class="z-30 text-lg md:text-xl text-neutral-800 font-extrabold">
       2026
     </div>
   </div>
@@ -197,7 +197,7 @@
   const getGroundY = () => H() - footerEl.offsetHeight;
 
   const isMobile = () => window.innerWidth < 768;
-  const SHAPE_SIZE = () => isMobile() ? 70 : 232;
+  const SHAPE_SIZE = () => isMobile() ? 92 : 232;
 
   const engine = Engine.create();
   engine.gravity.y = 1.1;
